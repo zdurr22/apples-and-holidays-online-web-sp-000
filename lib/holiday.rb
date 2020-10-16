@@ -66,6 +66,9 @@ holiday_hash.each do |season, holiday_names_hash|
     holiday = holiday_name.to_s.split("_")
     holiday.each do |word|
       word.capitalize!
+    end
+    new_holiday = holiday_name.join(" ")
+    
   end
 
 end
